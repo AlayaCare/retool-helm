@@ -1,0 +1,25 @@
+name: retool-helm
+id: ari:cloud:compass:1e6411e4-965b-4497-a475-23a31ee2d1e0:component/71c0d48a-bc51-453a-b220-9578452cffee/231569e5-1fbc-44cb-a6e5-986bab1cea91
+description: null
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/AlayaCare/retool-helm
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields:
+  - name: AC Domain
+    type: single_select
+    value: null
+  - name: AC Owner
+    type: single_select
+    value: null
+  - name: AC System
+    type: single_select
+    value: null
